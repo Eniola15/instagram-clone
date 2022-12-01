@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  background-color: white;
+}
+
+html {
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.head {
+  font-style: italic;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 40px 1px 60px 25px;
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+}
+
+nav {
+  position: fixed;
+}
+.list {
+  margin: -29px;
+}
+
+.listone {
+  margin: 20px 1px 6px 10px;
+  padding: 9px;
+}
+
+.obj {
+  margin: 90px 10px -2px 7px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 17px;
+}
+
+.firstdiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dot {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(85, 81, 81);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.dott {
+  background-color: rgb(85, 81, 81);
+  border: 2px solid rgb(230, 117, 117);
+  border-radius: 50%;
+  display: inline-block;
+  margin: -4px;
+  padding: 5px;
+}
+.bjay {
+  color: rgb(117, 108, 108);
+}
+
+.secondsection {
+  margin: 5px 80px 20px -50px;
+}
+
+.icon-last {
+  margin-left: 360px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.para {
+  color: gray;
+}
+
+.side {
+  display: flex;
+}
